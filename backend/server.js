@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 5000
 app.use(cors())
 app.use(express.json())
 
+app.get('/', (req, res) => {
+  res.status(200).send('Vinayaka Steel API is running')
+})
+
 // Contact form submission - stores in memory for demo; replace with DB or email service
 const submissions = []
 
