@@ -3,8 +3,11 @@ import './Pages.css'
 import './ContactPage.css'
 
 const MAP_LINK = 'https://maps.app.goo.gl/YfwaWc2UHp7464KV6'
+const WHATSAPP_NUMBER = '919606079929'
 
 export default function Contact() {
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Vinayaka Steel, I would like a quotation. My location is Bengaluru.')}`
+
   return (
     <div className="page">
       <section className="section page-hero">
@@ -38,14 +41,27 @@ export default function Contact() {
                 </a>
               </p>
             </div>
-            <a
-              href={MAP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary map-cta"
-            >
-              Open in Google Maps
-            </a>
+            <div className="contact-actions">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                WhatsApp for Quick Quote
+              </a>
+              <a
+                href={MAP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline map-cta"
+              >
+                Open in Google Maps
+              </a>
+            </div>
+            <div className="map-embed" aria-label="Map">
+              <iframe
+                title="Vinayaka Steel & Railing - Google Map"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Bengaluru%2C%20Karnataka&output=embed"
+              />
+            </div>
           </div>
         </div>
       </section>
