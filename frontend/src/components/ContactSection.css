@@ -1,0 +1,94 @@
+.contact-section {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.contact-section .section-title,
+.contact-section .section-subtitle {
+  color: var(--silver-light);
+}
+
+.contact-section .section-subtitle {
+  color: var(--silver);
+}
+
+.contact-section-inner {
+  display: grid;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-info-block h3 {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.contact-info-block p {
+  margin-bottom: 0.5rem;
+  color: var(--silver-light);
+}
+
+.contact-info-block a {
+  color: var(--silver);
+}
+
+.contact-info-block a:hover {
+  color: var(--white);
+}
+
+.contact-info-block .btn {
+  margin-top: 1rem;
+}
+
+.contact-info-block .btn-primary {
+  background: var(--white);
+  color: var(--navy);
+}
+
+.contact-info-block .btn-primary:hover {
+  background: var(--silver-light);
+  color: var(--navy-dark);
+}
+
+.map-embed-wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--navy-dark);
+}
+
+.map-link-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  padding: 2rem;
+  color: var(--silver);
+  text-align: center;
+  transition: background var(--transition), color var(--transition);
+}
+
+.map-link-block:hover {
+  background: var(--navy-light);
+  color: var(--white);
+}
+
+.map-link-text {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.map-link-sub {
+  font-size: 0.9375rem;
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .contact-section-inner {
+    grid-template-columns: 1fr 1.2fr;
+  }
+}

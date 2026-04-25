@@ -1,0 +1,6 @@
+# Allow search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap - replace YOUR-DOMAIN.com with your real website URL after you deploy
+Sitemap: https://YOUR-DOMAIN.com/sitemap.xml

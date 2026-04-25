@@ -1,0 +1,133 @@
+.page-hero {
+  background: var(--navy);
+  color: var(--white);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.page-subtitle {
+  color: var(--silver-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.narrow {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Services list */
+.services-list .service-detail {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--silver-light);
+}
+
+.services-list .service-detail:last-child {
+  border-bottom: none;
+}
+
+.service-detail h2 {
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+.service-desc {
+  color: var(--grey);
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.service-points {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.5rem;
+}
+
+.service-points li {
+  padding-left: 1.25rem;
+  position: relative;
+  color: var(--navy-dark);
+  font-size: 0.9375rem;
+}
+
+.service-points li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+/* About */
+.about-text p {
+  margin-bottom: 1.25rem;
+  color: var(--grey);
+  line-height: 1.7;
+}
+
+.about-contact-box {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background: var(--silver-light);
+  border-radius: var(--radius-lg);
+}
+
+.about-contact-box h3 {
+  color: var(--navy);
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.about-contact-box p {
+  margin-bottom: 0.5rem;
+  color: var(--navy-dark);
+}
+
+.about-contact-box a {
+  color: var(--navy-light);
+}
+
+.about-contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* Testimonials list */
+.testimonials-list .testimonial-block {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--silver-light);
+  margin: 0;
+}
+
+.testimonials-list .testimonial-block:last-child {
+  border-bottom: none;
+}
+
+.testimonial-block .testimonial-quote {
+  font-size: 1.125rem;
+  color: var(--navy-dark);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.testimonial-block footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.testimonial-block strong {
+  color: var(--navy);
+}
+
+.testimonial-block span {
+  font-size: 0.9375rem;
+  color: var(--grey);
+}

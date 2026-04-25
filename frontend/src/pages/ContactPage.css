@@ -1,0 +1,45 @@
+.contact-layout {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.contact-form-section h2,
+.contact-details-section h2 {
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.contact-intro {
+  color: var(--grey);
+  margin-bottom: 1.5rem;
+  font-size: 0.9375rem;
+}
+
+.contact-details {
+  margin-bottom: 1.5rem;
+}
+
+.contact-details p {
+  margin-bottom: 0.5rem;
+  color: var(--navy-dark);
+}
+
+.contact-details a {
+  color: var(--navy-light);
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.map-cta {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: start;
+  }
+}
