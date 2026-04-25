@@ -2,6 +2,15 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './PortfolioGallery.css'
 
+const projectImages = import.meta.glob('../projects/*', {
+  eager: true,
+  import: 'default'
+})
+
+function getProjectImage(fileName) {
+  return projectImages[`../projects/${fileName}`]
+}
+
 const filters = [
   'All',
   'SS Railing',
@@ -23,73 +32,73 @@ const projects = [
     id: 1,
     category: 'SS Railing',
     title: 'Stainless Steel Railing',
-    image: '/src/projects/ss-railing-1.jpg'
+    image: getProjectImage('ss-railing-1.jpg .jpeg')
   },
   {
     id: 2,
     category: 'Wood Railing',
     title: 'Wood Handrail & Railing',
-    image: '/src/projects/wood-railing-1.jpg'
+    image: getProjectImage('wood-railing-1.jpg')
   },
   {
     id: 3,
     category: 'Brass Railing',
     title: 'Brass Railing Finish',
-    image: '/src/projects/brass-railing-1.jpg'
+    image: getProjectImage('brass-railing-1.jpg')
   },
   {
     id: 4,
     category: 'PVD Coating',
     title: 'PVD Coated Metal Work',
-    image: '/src/projects/pvd-1.jpg'
+    image: getProjectImage('pvd-1.jpg')
   },
   {
     id: 5,
     category: 'Grills',
     title: 'Safety Grills',
-    image: '/src/projects/grill-1.jpg'
+    image: getProjectImage('grill-1.jpg')
   },
   {
     id: 6,
     category: 'Gates',
     title: 'Main Entrance Gate',
-    image: '/src/projects/gate-1.jpg'
+    image: getProjectImage('gate-1.jpg')
   },
   {
     id: 7,
     category: 'HPL Sheet',
     title: 'HPL / Exterior Sheet Cladding',
-    image: '/src/projects/hpl-sheet-1.jpg'
+    image: getProjectImage('hpl-sheet-1.jpg')
   },
   {
     id: 8,
     category: 'SS Fittings',
     title: 'Stainless Steel Fittings',
-    image: '/src/projects/ss-fitting-1.jpg'
+    image: getProjectImage('ss-fitting-1.jpg')
   },
   {
     id: 9,
     category: 'Pipes',
     title: 'Steel Pipe Work',
-    image: '/src/projects/pipe-1.jpg'
+    image: getProjectImage('pipe-1.jpg')
   },
   {
     id: 10,
     category: 'Hex Pipes',
     title: 'Hex Profile Pipe',
-    image: '/src/projects/pipe-12.jpg'
+    image: getProjectImage('pipe-12.jpg')
   },
   {
     id: 11,
     category: 'Window Works',
     title: 'Window Fabrication',
-    image: '/src/projects/window-1.jpg'
+    image: getProjectImage('window-1.jpg .jpeg')
   },
   {
     id: 12,
     category: 'Curtain Rods',
     title: 'Curtain Rod Installation',
-    image: '/src/projects/window-2.jpg'
+    image: getProjectImage('window-2.jpg .jpeg')
   }
 ]
 
