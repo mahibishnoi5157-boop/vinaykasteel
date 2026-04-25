@@ -6,10 +6,9 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-bg" aria-hidden="true" />
       <div className="container hero-inner">
-        <h1 className="hero-title">Bringing Style, Strength, and Safety to Your Space</h1>
+        <h1 className="hero-title">Steel & Railing Fabrication in Bengaluru</h1>
         <p className="hero-subtitle">
-          Premium steel and railing fabrication in Bengaluru. Custom solutions for homes, 
-          commercial spaces, and industrial projects—crafted with precision and care.
+          Stainless steel railings, glass railings, MS fabrication, gates & grills—measurement, fabrication, and installation across Bengaluru.
         </p>
         <div className="hero-cta">
           <Link to="/contact" className="btn btn-primary">

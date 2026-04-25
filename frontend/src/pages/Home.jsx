@@ -5,6 +5,7 @@ import ServicesPreview from '../components/ServicesPreview'
 import PortfolioGallery from '../components/PortfolioGallery'
 import TestimonialsSection from '../components/TestimonialsSection'
 import ReviewsSection from '../components/ReviewsSection'
+import ServiceAreasSection from '../components/ServiceAreasSection'
 import ContactSection from '../components/ContactSection'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <PortfolioGallery />
       <TestimonialsSection />
       <ReviewsSection />
+      <ServiceAreasSection />
       <ContactSection />
     </>
   )

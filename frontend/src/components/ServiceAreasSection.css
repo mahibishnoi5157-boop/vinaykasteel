@@ -1,0 +1,36 @@
+.service-areas {
+  background: linear-gradient(180deg, rgba(232,232,232,0.25), rgba(255,255,255,0));
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.area-chip {
+  border: 1px solid var(--silver-light);
+  background: var(--white);
+  border-radius: 999px;
+  padding: 0.75rem 0.9rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--navy-dark);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+.areas-cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .areas-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
