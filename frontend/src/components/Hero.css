@@ -30,7 +30,7 @@
 }
 
 .hero-logo {
-  width: min(220px, 60vw);
+  width: min(260px, 75vw);
   height: auto;
   display: block;
   margin: 0 auto 1.25rem;
@@ -145,5 +145,11 @@
   .hero-stats {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    width: min(360px, 92vw);
   }
 }
