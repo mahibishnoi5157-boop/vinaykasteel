@@ -23,73 +23,73 @@ const projects = [
     id: 1,
     category: 'SS Railing',
     title: 'Stainless Steel Railing',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/ss-railing-1.jpg'
   },
   {
     id: 2,
     category: 'Wood Railing',
     title: 'Wood Handrail & Railing',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/wood-railing-1.jpg'
   },
   {
     id: 3,
     category: 'Brass Railing',
     title: 'Brass Railing Finish',
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/brass-railing-1.jpg'
   },
   {
     id: 4,
     category: 'PVD Coating',
     title: 'PVD Coated Metal Work',
-    image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/pvd-1.jpg'
   },
   {
     id: 5,
     category: 'Grills',
     title: 'Safety Grills',
-    image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/grill-1.jpg'
   },
   {
     id: 6,
     category: 'Gates',
     title: 'Main Entrance Gate',
-    image: 'https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/gate-1.jpg'
   },
   {
     id: 7,
     category: 'HPL Sheet',
     title: 'HPL / Exterior Sheet Cladding',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/hpl-sheet-1.jpg'
   },
   {
     id: 8,
     category: 'SS Fittings',
     title: 'Stainless Steel Fittings',
-    image: 'https://images.unsplash.com/photo-1600573472592-401b489a3cdc?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/ss-fitting-1.jpg'
   },
   {
     id: 9,
     category: 'Pipes',
     title: 'Steel Pipe Work',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/pipe-1.jpg'
   },
   {
     id: 10,
     category: 'Hex Pipes',
     title: 'Hex Profile Pipe',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/pipe-12.jpg'
   },
   {
     id: 11,
     category: 'Window Works',
     title: 'Window Fabrication',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/window-1.jpg'
   },
   {
     id: 12,
     category: 'Curtain Rods',
     title: 'Curtain Rod Installation',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'
+    image: '/src/projects/window-2.jpg'
   }
 ]
 
