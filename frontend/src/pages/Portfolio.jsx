@@ -2,18 +2,167 @@ import { useState } from 'react'
 import './Pages.css'
 import './PortfolioPage.css'
 
-const filters = ['All', 'Stainless Steel', 'Glass', 'MS Work']
+const filters = [
+  'All',
+  'SS Railing',
+  'Wood Railing',
+  'Brass Railing',
+  'PVD Coating',
+  'Grills',
+  'Gates',
+  'HPL Sheet',
+  'SS Fittings',
+  'Pipes',
+  'Hex Pipes',
+  'Window Works',
+  'Curtain Rods'
+]
 
 const projects = [
-  { id: 1, category: 'Stainless Steel', title: 'Residential Balcony Railing', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop' },
-  { id: 2, category: 'Glass', title: 'Modern Staircase Railing', image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop' },
-  { id: 3, category: 'MS Work', title: 'Industrial Gate & Fencing', image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=400&fit=crop' },
-  { id: 4, category: 'Stainless Steel', title: 'Villa Exterior Railing', image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&h=400&fit=crop' },
-  { id: 5, category: 'Glass', title: 'Penthouse Balcony', image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&h=400&fit=crop' },
-  { id: 6, category: 'MS Work', title: 'Commercial Entrance Gate', image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop' },
-  { id: 7, category: 'Stainless Steel', title: 'Apartment Complex Railing', image: 'https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=600&h=400&fit=crop' },
-  { id: 8, category: 'Glass', title: 'Office Building Railing', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop' },
-  { id: 9, category: 'MS Work', title: 'Residential Gate', image: 'https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=600&h=400&fit=crop' }
+  {
+    id: 1,
+    category: 'SS Railing',
+    title: 'Stainless Steel Railing',
+    image: 'https://source.unsplash.com/1200x900/?stainless-steel,railing'
+  },
+  {
+    id: 2,
+    category: 'SS Railing',
+    title: 'SS Balcony Railing',
+    image: 'https://source.unsplash.com/1200x900/?stainless-steel,balcony'
+  },
+  {
+    id: 3,
+    category: 'Wood Railing',
+    title: 'Wood Handrail',
+    image: 'https://source.unsplash.com/1200x900/?wood,handrail'
+  },
+  {
+    id: 4,
+    category: 'Wood Railing',
+    title: 'Wood Railing Detail',
+    image: 'https://source.unsplash.com/1200x900/?wood,staircase'
+  },
+  {
+    id: 5,
+    category: 'Brass Railing',
+    title: 'Brass Finish Railing',
+    image: 'https://source.unsplash.com/1200x900/?brass,interior'
+  },
+  {
+    id: 6,
+    category: 'Brass Railing',
+    title: 'Brass Handrail',
+    image: 'https://source.unsplash.com/1200x900/?brass,handrail'
+  },
+  {
+    id: 7,
+    category: 'PVD Coating',
+    title: 'PVD Coated Hardware',
+    image: 'https://source.unsplash.com/1200x900/?metal,hardware'
+  },
+  {
+    id: 8,
+    category: 'PVD Coating',
+    title: 'Coated Metal Finish',
+    image: 'https://source.unsplash.com/1200x900/?metal,finish'
+  },
+  {
+    id: 9,
+    category: 'Grills',
+    title: 'Window Safety Grills',
+    image: 'https://source.unsplash.com/1200x900/?window,grill'
+  },
+  {
+    id: 10,
+    category: 'Grills',
+    title: 'Decorative Grills',
+    image: 'https://source.unsplash.com/1200x900/?metal,grill'
+  },
+  {
+    id: 11,
+    category: 'Gates',
+    title: 'Residential Gate',
+    image: 'https://source.unsplash.com/1200x900/?gate,entrance'
+  },
+  {
+    id: 12,
+    category: 'Gates',
+    title: 'Steel Gate Work',
+    image: 'https://source.unsplash.com/1200x900/?steel,gate'
+  },
+  {
+    id: 13,
+    category: 'HPL Sheet',
+    title: 'Exterior Cladding Sheet',
+    image: 'https://source.unsplash.com/1200x900/?building,cladding'
+  },
+  {
+    id: 14,
+    category: 'HPL Sheet',
+    title: 'Facade Sheet Work',
+    image: 'https://source.unsplash.com/1200x900/?architecture,facade'
+  },
+  {
+    id: 15,
+    category: 'SS Fittings',
+    title: 'SS Fittings',
+    image: 'https://source.unsplash.com/1200x900/?stainless-steel,parts'
+  },
+  {
+    id: 16,
+    category: 'SS Fittings',
+    title: 'Fittings & Hardware',
+    image: 'https://source.unsplash.com/1200x900/?metal,fittings'
+  },
+  {
+    id: 17,
+    category: 'Pipes',
+    title: 'Steel Pipe Fabrication',
+    image: 'https://source.unsplash.com/1200x900/?steel,pipe'
+  },
+  {
+    id: 18,
+    category: 'Pipes',
+    title: 'Pipe Work',
+    image: 'https://source.unsplash.com/1200x900/?industrial,pipe'
+  },
+  {
+    id: 19,
+    category: 'Hex Pipes',
+    title: 'Profile Pipe Work',
+    image: 'https://source.unsplash.com/1200x900/?metal,tube'
+  },
+  {
+    id: 20,
+    category: 'Hex Pipes',
+    title: 'Custom Pipe Profiles',
+    image: 'https://source.unsplash.com/1200x900/?metal,pipe'
+  },
+  {
+    id: 21,
+    category: 'Window Works',
+    title: 'Window Fabrication',
+    image: 'https://source.unsplash.com/1200x900/?window,frame'
+  },
+  {
+    id: 22,
+    category: 'Window Works',
+    title: 'Window Grill & Frame',
+    image: 'https://source.unsplash.com/1200x900/?window,installation'
+  },
+  {
+    id: 23,
+    category: 'Curtain Rods',
+    title: 'Curtain Rods',
+    image: 'https://source.unsplash.com/1200x900/?curtain,rod'
+  },
+  {
+    id: 24,
+    category: 'Curtain Rods',
+    title: 'Rod Installation',
+    image: 'https://source.unsplash.com/1200x900/?interior,curtain'
+  }
 ]
 
 export default function Portfolio() {
