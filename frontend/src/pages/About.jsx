@@ -1,4 +1,5 @@
 import './Pages.css'
+import jambheshwarImg from './asset/jambheshwar.png'
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
       </section>
       <section className="section about-content">
         <div className="container narrow">
+          <img className="about-image" src={jambheshwarImg} alt="Jambheshwar" />
           <div className="about-text">
             <p>
               Vinayaka Steel & Railing has been serving clients in Bengaluru and across Karnataka since 2015. 
