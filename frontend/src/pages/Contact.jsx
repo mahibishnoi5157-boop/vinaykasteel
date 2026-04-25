@@ -4,6 +4,7 @@ import './ContactPage.css'
 
 const MAP_LINK = 'https://maps.app.goo.gl/YfwaWc2UHp7464KV6'
 const WHATSAPP_NUMBER = '919036348560'
+const ADDRESS = '189/2, Lakkuppe, Near Tavarekere Post, Magadi Road, Tavarekere, Bangalore - 562130, Karnataka'
 
 export default function Contact() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Vinayaka Steel, I would like a quotation. My location is Bengaluru.')}`
@@ -35,6 +36,7 @@ export default function Contact() {
               <p><a href="tel:9036348560">9036348560</a></p>
               <p><a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a></p>
               <p><strong>Location</strong></p>
+              <p>{ADDRESS}</p>
               <p>
                 <a href={MAP_LINK} target="_blank" rel="noopener noreferrer">
                   View on Google Maps

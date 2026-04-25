@@ -29,6 +29,14 @@
   color: var(--white);
 }
 
+.hero-logo {
+  width: min(220px, 60vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 1.25rem;
+  filter: drop-shadow(0 18px 35px rgba(0, 0, 0, 0.35));
+}
+
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;

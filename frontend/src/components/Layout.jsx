@@ -71,6 +71,7 @@ export default function Layout({ children }) {
             <p>Sunil Bishnoi</p>
             <a href="tel:9036348560">9036348560</a>
             <a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a>
+            <p>189/2, Lakkuppe, Near Tavarekere Post, Magadi Road, Tavarekere, Bangalore - 562130, Karnataka</p>
             <a href="https://maps.app.goo.gl/YfwaWc2UHp7464KV6" target="_blank" rel="noopener noreferrer">View on Map</a>
           </div>
           <div className="footer-links">

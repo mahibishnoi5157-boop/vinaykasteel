@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import heroLogo from '../pages/asset/vinayakasteel.png'
 import './Hero.css'
 
 export default function Hero() {
@@ -6,6 +7,7 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-bg" aria-hidden="true" />
       <div className="container hero-inner">
+        <img className="hero-logo" src={heroLogo} alt="Vinayaka Steel & Railing" />
         <p className="hero-eyebrow">Vinayaka Steel & Railing</p>
         <h1 className="hero-title">Premium Steel & Railing Fabrication in Bengaluru</h1>
         <p className="hero-subtitle">
