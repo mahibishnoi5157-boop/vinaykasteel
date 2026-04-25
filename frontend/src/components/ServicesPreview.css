@@ -36,6 +36,14 @@
 
 .services-cta {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.services-cta .btn {
+  min-width: 180px;
 }
 
 @media (min-width: 640px) {

@@ -33,9 +33,9 @@ export default function ServicesPreview() {
   return (
     <section className="section services-preview">
       <div className="container">
-        <h2 className="section-title">Our Services</h2>
+        <h2 className="section-title">What We Fabricate</h2>
         <p className="section-subtitle">
-          From residential balconies to commercial and industrial projects, we deliver quality fabrication and installation.
+          From residential balconies to commercial projects, we deliver strong fabrication and clean installation with premium finishing.
         </p>
         <div className="services-grid">
           {services.map((s) => (
@@ -47,7 +47,8 @@ export default function ServicesPreview() {
           ))}
         </div>
         <div className="services-cta">
-          <Link to="/services" className="btn btn-primary">View All Services</Link>
+          <Link to="/services" className="btn btn-primary">Explore All Services</Link>
+          <a href="tel:9606079929" className="btn btn-outline">Call for Quick Quote</a>
         </div>
       </div>
     </section>

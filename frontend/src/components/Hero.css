@@ -29,6 +29,22 @@
   color: var(--white);
 }
 
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(21, 42, 69, 0.35);
+  color: var(--silver-light);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin: 0 auto 1rem;
+}
+
 .hero-title {
   font-size: clamp(1.75rem, 5vw, 2.75rem);
   line-height: 1.2;
@@ -43,6 +59,24 @@
   color: var(--silver-light);
   max-width: 600px;
   margin: 0 auto 2rem;
+}
+
+.hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+}
+
+.hero-pill {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 600;
+  font-size: 0.875rem;
 }
 
 .hero-cta {
@@ -71,4 +105,37 @@
 .hero-cta .btn-accent:hover {
   background: rgba(255,255,255,0.1);
   border-color: var(--white);
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 2.25rem auto 0;
+  max-width: 760px;
+}
+
+.hero-stat {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(21, 42, 69, 0.28);
+  border-radius: var(--radius-lg);
+  padding: 0.9rem 1rem;
+}
+
+.hero-stat-value {
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 0.15rem;
+}
+
+.hero-stat-label {
+  font-size: 0.9rem;
+  color: rgba(232, 232, 232, 0.9);
+}
+
+@media (min-width: 640px) {
+  .hero-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 }
