@@ -1,0 +1,86 @@
+.local-trust {
+  background: linear-gradient(180deg, rgba(232,232,232,0.35), rgba(255,255,255,0));
+}
+
+.local-trust-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin-top: 1.5rem;
+}
+
+.local-trust-card {
+  background: var(--white);
+  border: 1px solid var(--silver-light);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.local-trust-card h3 {
+  font-size: 1.125rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.local-trust-card p {
+  color: var(--grey);
+}
+
+.local-trust-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.local-faq {
+  margin-top: 2.5rem;
+}
+
+.local-faq-title {
+  text-align: center;
+  color: var(--navy);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.local-faq-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.local-faq-item {
+  background: var(--white);
+  border: 1px solid var(--silver-light);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+}
+
+.local-faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--navy-dark);
+}
+
+.local-faq-item p {
+  margin-top: 0.75rem;
+  color: var(--grey);
+}
+
+@media (min-width: 768px) {
+  .local-trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .local-faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .local-trust-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

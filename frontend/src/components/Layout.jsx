@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import FloatingActions from './FloatingActions'
 import './Layout.css'
 
 const navLinks = [
@@ -84,6 +85,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </footer>
+      <FloatingActions />
     </>
   )
 }
