@@ -82,7 +82,7 @@ export default function ContactForm() {
           value={form.phone}
           onChange={handleChange}
           required
-          placeholder="e.g. 9606079929"
+          placeholder="e.g. 9036348560"
         />
       </div>
       <div className="form-group">
@@ -115,7 +115,7 @@ export default function ContactForm() {
         <p className="form-message success">Thank you! We will get back to you soon.</p>
       )}
       {status === 'error' && (
-        <p className="form-message error">Something went wrong. Please call us at 9606079929.</p>
+        <p className="form-message error">Something went wrong. Please call us at 9036348560.</p>
       )}
       <button type="submit" className="btn btn-primary" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending...' : 'Send Message'}

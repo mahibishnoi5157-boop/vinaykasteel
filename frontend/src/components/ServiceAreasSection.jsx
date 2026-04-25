@@ -31,7 +31,7 @@ export default function ServiceAreasSection() {
         </div>
 
         <div className="areas-cta">
-          <a className="btn btn-primary" href="tel:9606079929">Call Now</a>
+          <a className="btn btn-primary" href="tel:9036348560">Call Now</a>
           <a className="btn btn-outline" href="https://maps.app.goo.gl/YfwaWc2UHp7464KV6" target="_blank" rel="noopener noreferrer">
             Get Directions
           </a>

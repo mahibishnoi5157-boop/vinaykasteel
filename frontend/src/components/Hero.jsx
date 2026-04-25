@@ -19,8 +19,8 @@ export default function Hero() {
         </div>
 
         <div className="hero-cta">
-          <a href="tel:9606079929" className="btn btn-primary">
-            Call Now: 9606079929
+          <a href="tel:9036348560" className="btn btn-primary">
+            Call Now: 9036348560
           </a>
           <Link to="/contact" className="btn btn-accent">
             Request a Free Quote

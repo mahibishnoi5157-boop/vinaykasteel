@@ -48,7 +48,7 @@ export default function ServicesPreview() {
         </div>
         <div className="services-cta">
           <Link to="/services" className="btn btn-primary">Explore All Services</Link>
-          <a href="tel:9606079929" className="btn btn-outline">Call for Quick Quote</a>
+          <a href="tel:9036348560" className="btn btn-outline">Call for Quick Quote</a>
         </div>
       </div>
     </section>

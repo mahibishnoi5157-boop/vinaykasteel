@@ -49,7 +49,7 @@ export default function Layout({ children }) {
               ))}
             </ul>
             <div className="header-cta">
-              <a href="tel:9606079929" className="btn btn-primary">
+              <a href="tel:9036348560" className="btn btn-primary">
                 Call Now
               </a>
               <Link to="/contact" className="btn btn-outline" onClick={() => setMenuOpen(false)}>
@@ -68,8 +68,8 @@ export default function Layout({ children }) {
           </div>
           <div className="footer-contact">
             <p><strong>Contact</strong></p>
-            <p>Sunil Kumar</p>
-            <a href="tel:9606079929">9606079929</a>
+            <p>Sunil Bishnoi</p>
+            <a href="tel:9036348560">9036348560</a>
             <a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a>
             <a href="https://maps.app.goo.gl/YfwaWc2UHp7464KV6" target="_blank" rel="noopener noreferrer">View on Map</a>
           </div>

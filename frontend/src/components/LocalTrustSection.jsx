@@ -54,7 +54,7 @@ export default function LocalTrustSection() {
         </div>
 
         <div className="local-trust-cta">
-          <a className="btn btn-primary" href="tel:9606079929">Call for Quick Quote</a>
+          <a className="btn btn-primary" href="tel:9036348560">Call for Quick Quote</a>
           <Link className="btn btn-outline" to="/contact">Request Site Visit</Link>
         </div>
 

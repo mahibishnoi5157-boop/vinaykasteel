@@ -12,8 +12,8 @@ export default function ContactSection() {
         <div className="contact-section-inner">
           <div className="contact-info-block">
             <h3>Vinayaka Steel & Railing</h3>
-            <p><strong>Contact:</strong> Sunil Kumar</p>
-            <p><a href="tel:9606079929">9606079929</a></p>
+            <p><strong>Contact:</strong> Sunil Bishnoi</p>
+            <p><a href="tel:9036348560">9036348560</a></p>
             <p><a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a></p>
             <p>
               <a href="https://maps.app.goo.gl/YfwaWc2UHp7464KV6" target="_blank" rel="noopener noreferrer">

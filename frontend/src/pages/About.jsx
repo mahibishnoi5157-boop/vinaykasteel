@@ -35,8 +35,8 @@ export default function About() {
           </div>
           <div className="about-contact-box">
             <h3>Get in touch</h3>
-            <p><strong>Sunil Kumar</strong></p>
-            <p><a href="tel:9606079929">9606079929</a></p>
+            <p><strong>Sunil Bishnoi</strong></p>
+            <p><a href="tel:9036348560">9036348560</a></p>
             <p><a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a></p>
             <p>
               <a href="https://maps.app.goo.gl/YfwaWc2UHp7464KV6" target="_blank" rel="noopener noreferrer">

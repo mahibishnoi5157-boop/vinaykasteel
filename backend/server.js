@@ -37,7 +37,7 @@ app.post('/api/contact', (req, res) => {
 
     submissions.push(submission)
 
-    // In production: send email (e.g. Nodemailer), save to DB, or notify Sunil Kumar
+    // In production: send email (e.g. Nodemailer), save to DB, or notify Sunil Bishnoi
     console.log('New contact submission:', submission)
 
     res.status(201).json({
@@ -48,7 +48,7 @@ app.post('/api/contact', (req, res) => {
     console.error(err)
     res.status(500).json({
       success: false,
-      message: 'Something went wrong. Please try again or call 9606079929.'
+      message: 'Something went wrong. Please try again or call 9036348560.'
     })
   }
 })

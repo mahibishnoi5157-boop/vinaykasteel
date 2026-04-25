@@ -49,11 +49,11 @@ Output is in `frontend/dist`. Serve with any static host; point API requests to 
 - **Home:** Hero, services preview, filterable project gallery, testimonials, contact block + map link
 - **Contact:** Form (Name, Email, Phone, Type of Inquiry dropdown, Message) and Google Maps link
 - **Design:** Navy blue & silver/grey, mobile-responsive, basic SEO (meta, local keywords)
-- **Contact:** Sunil Kumar — 9606079929 | [Location (Google Maps)](https://maps.app.goo.gl/YfwaWc2UHp7464KV6)
+- **Contact:** Sunil Bishnoi — 9036348560 | [Location (Google Maps)](https://maps.app.goo.gl/YfwaWc2UHp7464KV6)
 
 ## Contact Info
 
-- **Name:** Sunil Kumar  
-- **Phone:** 9606079929  
+- **Name:** Sunil Bishnoi  
+- **Phone:** 9036348560  
 - **Email:** kingking29290@gmail.com  
 - **Location:** [Google Maps](https://maps.app.goo.gl/YfwaWc2UHp7464KV6)

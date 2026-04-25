@@ -3,7 +3,7 @@ import './Pages.css'
 import './ContactPage.css'
 
 const MAP_LINK = 'https://maps.app.goo.gl/YfwaWc2UHp7464KV6'
-const WHATSAPP_NUMBER = '919606079929'
+const WHATSAPP_NUMBER = '919036348560'
 
 export default function Contact() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Vinayaka Steel, I would like a quotation. My location is Bengaluru.')}`
@@ -31,8 +31,8 @@ export default function Contact() {
             <h2>Vinayaka Steel & Railing</h2>
             <div className="contact-details">
               <p><strong>Contact</strong></p>
-              <p>Sunil Kumar</p>
-              <p><a href="tel:9606079929">9606079929</a></p>
+              <p>Sunil Bishnoi</p>
+              <p><a href="tel:9036348560">9036348560</a></p>
               <p><a href="mailto:kingking29290@gmail.com">kingking29290@gmail.com</a></p>
               <p><strong>Location</strong></p>
               <p>
